@@ -14,7 +14,6 @@ const Banner = () => {
     const toRotate = ["full-stack developer", "software engineer", "data nerd"]
     const [text, setText] = useState('')
     const [delta, setDelta] = useState(100)
-    const period = 2000
 
     useEffect(() => {
         let ticker = setInterval(() => {
@@ -28,14 +27,13 @@ const Banner = () => {
     }, [text])
 
     const tick = () => {
-        console.log('tick')
         let i = loopNum % toRotate.length
         let fullText = toRotate[i]
 
         let newText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1)
 
         if (!isDeleting && newText === fullText) {
-            setDelta(period)
+            setDelta(2000)
             setIsDeleting(true)
         } else if (isDeleting && newText === '') {
             setIsDeleting(false)

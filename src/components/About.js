@@ -1,0 +1,71 @@
+import React from 'react'
+import { useState, useEffect } from 'react'
+import { Container, Row, Col } from 'react-bootstrap'
+import '../assets/css/About.css'
+import data from '../assets/json/chunk-text.json'
+
+import Me1 from '../assets/img/me1.jpg'
+import Me2 from '../assets/img/me2.jpg'
+import Me3 from '../assets/img/me3.jpg'
+import Me4 from '../assets/img/me4.jpg'
+import Me5 from '../assets/img/me5.jpg'
+
+const About = () => {
+    const about_text = data.about
+    const toRotate = [Me1, Me2, Me3, Me4, Me5]
+
+    const [opacity, setOpacity] = useState(0)
+    const [loopNum, setLoopNum] = useState(0)
+    const [isDeleting, setIsDeleting] = useState(false)
+    const [delta, setDelta] = useState(100)
+
+    useEffect(() => {
+        let ticker = setInterval(() => {
+            tick()
+        }, delta)
+
+        return () => {
+            clearInterval(ticker)
+        }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [opacity, loopNum])
+
+    const tick = () => {
+        let newOpacity = isDeleting ? opacity - 0.1 : opacity + 0.1
+        console.log(newOpacity)
+
+        if (!isDeleting && newOpacity >= 1) {
+            setDelta(2000)
+            setIsDeleting(true)
+        } else if (isDeleting && newOpacity <= 0) {
+            setIsDeleting(false)
+            setLoopNum((loopNum + 1) % toRotate.length)
+            setDelta(100)
+        } else if (isDeleting) {
+            setDelta(50)
+        }
+        
+        setOpacity(newOpacity)
+    }
+
+    return (
+        <section className="about" id="about">
+            <Container className="about-box">
+                <h2>About Me</h2>
+                <Row className="align-items-center">
+                    <Col xs={12} lg={6} className="img-col">
+                        <img className="abt-img" src={toRotate[loopNum]} alt="Cindy" style={{opacity:opacity}}/>
+                    </Col>
+                    <Col xs={12} lg={6}>
+                        <p>{about_text}</p>
+                        <a className="button-link" href="../assets/resume.pdf" download>
+                            <span>Resume</span>
+                        </a>
+                    </Col>
+                </Row>
+            </Container>
+        </section>
+    )
+}
+
+export default About
