@@ -241,4 +241,9 @@
       width: 36px;
       height: 36px;
     }
+
+    .social-icon a::before {
+      width: 36px;
+      height: 36px;
+    }
   }

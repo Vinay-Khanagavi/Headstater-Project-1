@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
 import '../assets/css/About.css'
 import data from '../assets/json/chunk-text.json'
 
@@ -32,7 +32,6 @@ const About = () => {
 
     const tick = () => {
         let newOpacity = isDeleting ? opacity - 0.1 : opacity + 0.1
-        console.log(newOpacity)
 
         if (!isDeleting && newOpacity >= 1) {
             setDelta(2000)
@@ -50,20 +49,18 @@ const About = () => {
 
     return (
         <section className="about" id="about">
-            <Container className="about-box">
-                <h2>About Me</h2>
-                <Row className="align-items-center">
-                    <Col xs={12} lg={6} className="img-col">
-                        <img className="abt-img" src={toRotate[loopNum]} alt="Cindy" style={{opacity:opacity}}/>
-                    </Col>
-                    <Col xs={12} lg={6}>
-                        <p>{about_text}</p>
-                        <a className="button-link" href="../assets/resume.pdf" download>
-                            <span>Resume</span>
-                        </a>
-                    </Col>
-                </Row>
-            </Container>
+            <h2>Hello World!</h2>
+            <Row className="align-items-center">
+                <Col xs={12} lg={6} className="img-col">
+                    <img className="abt-img" src={toRotate[loopNum]} alt="Cindy" style={{opacity:opacity}}/>
+                </Col>
+                <Col xs={12} lg={5}>
+                    <p>{about_text}</p>
+                    <a className="button-link" href="../assets/resume.pdf" download>
+                        <span>Resume</span>
+                    </a>
+                </Col>
+            </Row>
         </section>
     )
 }

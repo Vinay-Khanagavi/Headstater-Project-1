@@ -42,6 +42,12 @@ h1, h2, h3, h4, h5, h6 {
   line-height: normal;
 }
 
+h2 {
+    font-size: 45px !important;
+    font-weight: 600 !important;
+    margin-bottom: 40px !important;
+}
+
 p, a, li, button, ul {
   margin: 0;
   padding: 0;
@@ -107,6 +113,21 @@ input:focus, textarea:focus, select:focus {
   outline: none;
 }
 
+.box {
+  background: #151515;
+    border-radius: 64px;
+    text-align: center;
+    justify-content: center;
+    padding: 60px 50px !important;
+    margin-top: -60px;
+}
+
+.body {
+  padding: 0 0 50px 0;
+    position: relative;
+    justify-content: center;
+}
+
 @media (min-width:1700px) {
 	main .container {
 		max-width: 100%;
@@ -114,7 +135,12 @@ input:focus, textarea:focus, select:focus {
 	}
 }
 
-@media (max-width:1200px) {
+@media screen and (max-width:1200px) {
+  h2 {
+    font-size: 35px !important;
+    margin-bottom: 15px !important;
+  }
+  
   .button-container {
     display: flex;
     justify-content: center;
@@ -123,6 +149,14 @@ input:focus, textarea:focus, select:focus {
   .img-col {
     justify-content: center;
     display: flex;
+  }
+
+  .box {
+    margin-top: -25px;
+  }
+
+  .body {
+    padding: 0 50px 50px 50px;
   }
 }
 
