@@ -9,6 +9,7 @@ import '../assets/css/NavBar.css'
 const NavBar = () => {
     const [activeLink, setActiveLink] = useState('')
     const [scrolled, setScrolled] = useState(false)
+    const [expanded, setExpanded] = useState(false);
 
     useEffect(() => {
         const onScroll = () => {
@@ -25,14 +26,14 @@ const NavBar = () => {
 
     const updateActiveLink = (link) => {
         setActiveLink(link)
-        console.log(activeLink)
+        setExpanded(expanded ? false : "expanded")
     }
 
     return (
-        <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
+        <Navbar expand="lg" className={scrolled ? "scrolled" : ""} expanded={expanded}>
             <Container>
                 <Navbar.Brand href="/" className="brand" onClick={() => updateActiveLink('')}>CY</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav">
+                <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")}>
                     <span className="navbar-toggler-icon"></span>
                 </Navbar.Toggle>
                 <Navbar.Collapse id="basic-navbar-nav">

@@ -24,7 +24,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 75px;
+  scroll-padding-top: 100px;
 }
 
 body {
@@ -162,7 +162,12 @@ input:focus, textarea:focus, select:focus {
 
 @media (max-width: 768px) {
   .img-col {
-    margin-top: 35px !important;
+    margin-top: 10px !important;
+  }
+
+  h2 {
+    font-size: 30px !important;
+    margin-bottom: 15px !important;
   }
 }
 

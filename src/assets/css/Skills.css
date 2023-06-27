@@ -66,3 +66,44 @@ h3 {
 .skills-content {
     margin-bottom: 10px;
 }
+
+@media screen and (max-width: 1200px) {
+    h3 {
+        font-size: 25px;
+    }
+
+    .skills-icon, .skills-arrow {
+        font-size: 20px;
+    }
+
+    .skills-name {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .skills-container {
+        width: 100%;
+    }
+
+    .skills-header {
+        margin-top: 15px;
+        text-align: left;
+    }
+
+    .skills-title {
+        flex-direction: column;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .skills-icon, .skills-arrow {
+        font-size: 18px;
+    }
+
+    .skills-name {
+        font-size: 14px;
+    }
+}
