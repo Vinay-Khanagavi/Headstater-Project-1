@@ -211,11 +211,6 @@
       padding: 8px 20px !important;
     }
 
-    nav.navbar {
-      padding-bottom: 18px;
-      background-color: #121212;
-    }
-
     .navbar-collapse {
       margin-top: 10px;
     }
@@ -227,6 +222,8 @@
 
     nav.navbar {
       justify-content: center;
+      background-color: #121212;
+      padding-bottom: 18px;
     }
 
     .brand {

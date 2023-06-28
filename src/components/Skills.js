@@ -22,9 +22,9 @@ const Skills = () => {
         const skills = data[key].map(skill => {
             const num = year-skill[1]+1
             return (
-                <Row>
+                <Row key={key+skill}>
                     <div 
-                        class="skills-data"
+                        className="skills-data"
                         aria-expanded={open === key ? "true" : "false"}
                     >
                         <div className="skills-title">
@@ -37,7 +37,7 @@ const Skills = () => {
         })
         return (
             <div 
-                class={open === key ? "skills-content skills-open" : "skills-content skills-closed"} 
+                className={open === key ? "skills-content skills-open" : "skills-content skills-closed"} 
                 onClick={() => {
                     if (open === key) {
                         setOpen("")
@@ -45,8 +45,9 @@ const Skills = () => {
                         setOpen(key)
                     }
                 }}
+                key={key}
             >
-                <div class="skills-header">
+                <div className="skills-header">
                     {icons[key]}
                     <h3>{key}</h3>
                     <ChevronDown className="skills-arrow" />

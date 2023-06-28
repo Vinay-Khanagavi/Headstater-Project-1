@@ -6,6 +6,7 @@ import { Container } from 'react-bootstrap';
 import './assets/css/App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Skills from './components/Skills.js';
+import Experience from './components/Experience.js';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Container className="box">
           <About />
           <Skills />
+          <Experience />
         </Container>
       </section>
     </div>

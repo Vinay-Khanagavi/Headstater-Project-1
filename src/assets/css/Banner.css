@@ -73,18 +73,22 @@
         text-align: center;
     }
 
+    .banner .container {
+        width: 95%;
+    }
+
     .banner h1 {
         font-size: 40px;
     }
 
     .banner p {
         font-size: 16px;
-        margin: 0 auto;
+        margin: 0 auto !important;
     }
 
     .banner a {
         font-size: 18px;
-        margin-top: 25px;
+        margin-top: 25px !important;
         text-align: center;
     }
 

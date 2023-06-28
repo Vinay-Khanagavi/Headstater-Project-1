@@ -1,0 +1,44 @@
+{
+    "education": [
+        [
+            "University of Michigan - Ann Arbor",
+            "BS in Data Science & Robotics",
+            "August 2023 - May 2027"
+        ],
+        [
+            "Thomas Jefferson High School for Science and Technology",
+            "Advanced Studies Diploma",
+            "August 2019 - June 2023"
+        ]
+        
+    ],
+    "work": [
+        [
+            "Software Engineer Intern",
+            "Yext",
+            "June 2022 - August 2022"
+        ],
+        [
+            "Research Intern",
+            "George Mason University",
+            "June 2022 - August 2022"
+        ],
+        [
+            "Web Development Intern",
+            "DataVediK",
+            "May 2021 - August 2021"
+        ]
+    ],
+    "organizations": [
+        [
+            "Software Developer",
+            "Vytal AI",
+            "March 2022 - Present"
+        ],
+        [
+            "Tech Team",
+            "Codefy",
+            "June 2021 - November 2021"
+        ]
+    ]
+}

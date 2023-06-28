@@ -34,6 +34,12 @@ p {
         align-self: center;
         margin-top: 20px;
     }
+
+    .about {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media (max-width: 768px) {
@@ -43,5 +49,6 @@ p {
 
     .about {
         margin-bottom: 70px;
+        width: 100%;
     }
 }
