@@ -7,7 +7,7 @@ import { useState, useEffect } from 'react'
 const Experience = () => {
 
     const [open, setOpen] = useState("education")
-    const [tempOpen, setTempOpen] = useState("")
+    const [tempOpen, setTempOpen] = useState("education")
     const [changing, setChanging] = useState(false)
     const [isDeleting, setIsDeleting] = useState(false)
     const [opacity, setOpacity] = useState(1)
@@ -98,7 +98,7 @@ const Experience = () => {
     })
 
   return (
-    <section className="experience">
+    <section className="experience" id="experience">
         <h2>Experience</h2>
 
         <div className="experience-container">

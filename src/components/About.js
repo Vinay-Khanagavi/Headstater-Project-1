@@ -4,15 +4,11 @@ import { Row, Col } from 'react-bootstrap'
 import '../assets/css/About.css'
 import data from '../assets/json/chunk-text.json'
 
-import Me1 from '../assets/img/me1.jpg'
-import Me2 from '../assets/img/me2.jpg'
-import Me3 from '../assets/img/me3.jpg'
-import Me4 from '../assets/img/me4.jpg'
-import Me5 from '../assets/img/me5.jpg'
+const images = require.context('../assets/img/me', true)
 
 const About = () => {
     const about_text = data.about
-    const toRotate = [Me1, Me2, Me3, Me4, Me5]
+    const toRotate = images.keys().map(image => images(image))
 
     const [opacity, setOpacity] = useState(0)
     const [loopNum, setLoopNum] = useState(0)

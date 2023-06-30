@@ -1,0 +1,20 @@
+{
+    "Project1": {
+        "tools": "Visual Studio 2015",
+        "description": "This is a project description",
+        "imagePath": "./header-bg.jpg",
+        "link": "google.com"
+    },
+    "Project2": {
+        "tools": "Visual Studio 2015",
+        "description": "This is a project description",
+        "imagePath": "./header-bg.jpg",
+        "link": "google.com"
+    },
+    "Project3": {
+        "tools": "Visual Studio 2015",
+        "description": "This is a project description",
+        "imagePath": "./header-bg.jpg",
+        "link": "google.com"
+    }
+}
