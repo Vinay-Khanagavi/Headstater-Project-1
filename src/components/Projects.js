@@ -16,6 +16,7 @@ const Projects = () => {
         return (
             <SwiperSlide key={key}>
                 <div className="project-content">
+                    {/* size of image should be 1280 x 720 */}
                     <img src={images(data[key].imagePath)} alt={key} className="project-img" />
                     <div className="project-data">
                         <h3 className="project-title">{key}</h3>

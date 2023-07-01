@@ -1,20 +1,44 @@
 {
-    "Project1": {
-        "tools": "Visual Studio 2015",
-        "description": "This is a project description",
-        "imagePath": "./header-bg.jpg",
-        "link": "google.com"
+    "Portfolio": {
+        "tools": "ReactJS, Bootstrap, CSS, EmailJS",
+        "description": "A portfolio website that showcases my projects and skills. Includes a contact form that sends emails to my inbox. You're looking at it right now :)",
+        "imagePath": "./Portfolio.png",
+        "link": "https://github.com/ElemelonWind/personal-portfolio"
     },
-    "Project2": {
-        "tools": "Visual Studio 2015",
-        "description": "This is a project description",
-        "imagePath": "./header-bg.jpg",
-        "link": "google.com"
+    "Tunesphere": {
+        "tools": "ReactJS, Spotify API, Jupyter Notebook, Tensorflow, CSS",
+        "description": "Song recommendation system that utilizes sentiment analysis to introduce new genres to listeners. Won Best Design at HackTJ 10.0.",
+        "imagePath": "./Tunesphere.png",
+        "link": "https://github.com/ElemelonWind/tunesphere"
     },
-    "Project3": {
-        "tools": "Visual Studio 2015",
-        "description": "This is a project description",
-        "imagePath": "./header-bg.jpg",
-        "link": "google.com"
+    "Edge Detection": {
+        "tools": "C++",
+        "description": "A program that detects edges in images using canny edge detection, hysteresis thresholding, and non-maximum suppression.",
+        "imagePath": "./EdgeDetection.png",
+        "link": "https://github.com/ElemelonWind/edge-detection"
+    },
+    "Knowledge Graph Generator": {
+        "tools": "Jupyter Notebook, spaCy, Pandas, Matplotlib",
+        "description": "Project done as part of research conducted under GMU's ASSIP program on automated ontological knowledge formation.",
+        "imagePath": "./KnowledgeGraph.png",
+        "link": "https://github.com/ElemelonWind/knowledge-graph"
+    },
+    "Othello Bot": {
+        "tools": "Python, TKinter",
+        "description": "An AI bot that uses minimax algorithms to play othello. Uses techniques such as alphabeta pruning and heuristics.",
+        "imagePath": "./Othello.png",
+        "link": "https://github.com/ElemelonWind/othello-bot"
+    },
+    "Lyric Finder": {
+        "tools": "ReactJS, Musixmatch API, Bootstrap",
+        "description": "A react app that finds the lyrics of songs using the Musixmatch API. Includes a top ten tracks leaderboard and ratings of songs.",
+        "imagePath": "./LyricFinder.png",
+        "link": "https://github.com/ElemelonWind/react-lyric-finder"
+    },
+    "Sentiment Classifier": {
+        "tools": "Jupyter Notebook, Pandas, Numpy, NLTK, SKLearn",
+        "description": "A natural language processing model that finds the sentiment (good or bad) of restaurant reviews.",
+        "imagePath": "./NLP.png",
+        "link": "https://github.com/ElemelonWind/sentiment-classifier"
     }
 }
