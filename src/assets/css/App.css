@@ -70,7 +70,7 @@ button {
 }
 
 .button-link {
-  color: #fff;
+  color: #fff !important;
   font-weight: 700;
   border: 1px solid #fff;
   text-decoration: none;
@@ -99,7 +99,7 @@ button {
 }
 
 .button-link:hover {
-  color: #121212;
+  color: #121212 !important;
 }
 
 .button-link:hover::before {
@@ -120,12 +120,25 @@ input:focus, textarea:focus, select:focus {
     justify-content: center;
     padding: 60px 50px !important;
     margin-top: -60px;
+    margin-bottom: -60px;
 }
 
 .body {
-  padding: 0 0 50px 0;
+  padding: 0;
     position: relative;
     justify-content: center;
+}
+
+p.success {
+	color: green;
+  margin-top: 15px !important;
+  margin-left: -10px !important;
+}
+
+p.danger {
+	color: red;
+  margin-top: 15px !important;
+  margin-left: -10px !important;
 }
 
 @media (min-width:1700px) {
@@ -153,14 +166,20 @@ input:focus, textarea:focus, select:focus {
 
   .box {
     margin-top: -25px;
+    margin-bottom: -25px;
   }
 
   .body {
-    padding: 0 50px 50px 50px;
+    padding: 0 50px 0 50px;
   }
 }
 
 @media (max-width: 768px) {
+
+  html {
+    scroll-padding-top: 100px;
+  }
+
   .img-col {
     margin-top: 10px !important;
   }
@@ -169,12 +188,10 @@ input:focus, textarea:focus, select:focus {
     font-size: 30px !important;
     margin-bottom: 15px !important;
   }
+
+  p.success, p.danger {
+    margin: auto !important;
+    margin-top: 15px !important;
+  }
 }
 
-p.success {
-	color: green;
-}
-
-p.danger {
-	color: red;
-}

@@ -57,9 +57,9 @@ const NavBar = () => {
                             </a>
                         </div>
                         <div className="button-container">
-                            <button className="contact" onClick={() => console.log('connect')}>
+                            <a className="contact button-link" href="#contact" onClick={() => updateActiveLink('contact')}>
                                 <span>Contact</span>
-                            </button>
+                            </a>
                         </div>
                     </span>
                 </Navbar.Collapse>

@@ -8,6 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Skills from './components/Skills.js';
 import Experience from './components/Experience.js';
 import Projects from './components/Projects.js';
+import Contact from './components/Contact.js';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Projects />
         </Container>
       </section>
+      <Contact />
     </div>
   );
 }

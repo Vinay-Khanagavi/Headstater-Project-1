@@ -1,10 +1,4 @@
 {
-    "Portfolio": {
-        "tools": "ReactJS, Bootstrap, CSS, EmailJS",
-        "description": "A portfolio website that showcases my projects and skills. Includes a contact form that sends emails to my inbox. You're looking at it right now :)",
-        "imagePath": "./Portfolio.png",
-        "link": "https://github.com/ElemelonWind/personal-portfolio"
-    },
     "Tunesphere": {
         "tools": "ReactJS, Spotify API, Jupyter Notebook, Tensorflow, CSS",
         "description": "Song recommendation system that utilizes sentiment analysis to introduce new genres to listeners. Won Best Design at HackTJ 10.0.",
@@ -40,5 +34,11 @@
         "description": "A natural language processing model that finds the sentiment (good or bad) of restaurant reviews.",
         "imagePath": "./NLP.png",
         "link": "https://github.com/ElemelonWind/sentiment-classifier"
+    },
+    "Portfolio": {
+        "tools": "ReactJS, Bootstrap, CSS, EmailJS",
+        "description": "A portfolio website that showcases my projects and skills. Includes a contact form that sends emails to my inbox. You're looking at it right now :)",
+        "imagePath": "./Portfolio.png",
+        "link": "https://github.com/ElemelonWind/personal-portfolio"
     }
 }
