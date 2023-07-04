@@ -59,14 +59,23 @@
     font-size: 50px;
     width: 50px !important;
     height: 50px !important;
+    transition: .4s;
 }
 
 .swiper-button-next {
     margin-right: 100px;
 }
 
+.swiper-button-next:hover {
+    transform: translateX(10px);
+}
+
 .swiper-button-prev {
     margin-left: 100px;
+}
+
+.swiper-button-prev:hover {
+    transform: translateX(-10px);
 }
 
 .swiper-pagination-bullet {
