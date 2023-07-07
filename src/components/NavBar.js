@@ -32,13 +32,12 @@ const NavBar = () => {
     return (
         <Navbar expand="lg" className={scrolled ? "scrolled" : ""} expanded={expanded}>
             <Container>
-                <Navbar.Brand href="/" className="brand" onClick={() => updateActiveLink('')}>CY</Navbar.Brand>
+                <Navbar.Brand href="#home" className="brand" onClick={() => updateActiveLink('home')}>CY</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")}>
                     <span className="navbar-toggler-icon"></span>
                 </Navbar.Toggle>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => updateActiveLink('home')}>Home</Nav.Link>
                         <Nav.Link href="#about" className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link'} onClick={() => updateActiveLink('about')}>About</Nav.Link>
                         <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => updateActiveLink('skills')}>Skills</Nav.Link>
                         <Nav.Link href="#experience" className={activeLink === 'experience' ? 'active navbar-link' : 'navbar-link'} onClick={() => updateActiveLink('experience')}>Experience</Nav.Link>

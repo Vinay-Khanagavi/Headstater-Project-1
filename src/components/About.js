@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react'
 import { Row, Col } from 'react-bootstrap'
 import '../assets/css/About.css'
 import data from '../assets/json/chunk-text.json'
+import resume from '../assets/resume.pdf'
 
 const images = require.context('../assets/img/me', true)
 
@@ -52,7 +53,7 @@ const About = () => {
                 </Col>
                 <Col xs={12} lg={5}>
                     <p>{about_text}</p>
-                    <a className="button-link" href="../assets/resume.pdf" download>
+                    <a className="button-link" href={resume} download>
                         <span>Resume</span>
                     </a>
                 </Col>
