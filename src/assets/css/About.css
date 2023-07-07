@@ -51,4 +51,9 @@ p {
         margin-bottom: 70px;
         width: 100%;
     }
+
+    .about p {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
 }

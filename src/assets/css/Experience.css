@@ -157,15 +157,19 @@
     }
 
     .experience-title {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .experience-subtitle {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .experience-calendar {
-        font-size: 14px;
+        font-size: 12px;
+    }
+
+    .experience-data {
+        column-gap: 1rem;
     }
 
     .experience-calendar svg {

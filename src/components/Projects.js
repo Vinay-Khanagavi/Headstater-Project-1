@@ -46,14 +46,14 @@ const Projects = () => {
                 slidesPerView={1}
                 loop={true}
             >
-                <div class="swiper-button-prev">
+                <div className="swiper-button-prev">
                     <ChevronLeft />
                 </div>
                 {projects}
-                <div class="swiper-button-next">
+                <div className="swiper-button-next">
                     <ChevronRight />
                 </div>
-                <div class="swiper-pagination">
+                <div className="swiper-pagination">
                     
                 </div>
             </Swiper>  

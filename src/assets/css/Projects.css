@@ -123,4 +123,14 @@
         width: 6px !important;
         height: 6px !important;
     }
+
+    .project-subtitle {
+        font-size: 14px;
+    }
+
+    .project-description {
+        font-size: 14px;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
 }

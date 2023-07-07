@@ -14,17 +14,32 @@ const Banner = () => {
     const toRotate = ["full-stack developer", "software engineer", "data nerd"]
     const [text, setText] = useState('')
     const [delta, setDelta] = useState(100)
+    const [scrolled, setScrolled] = useState(false)
 
     useEffect(() => {
+        const onScroll = () => {
+            if (window.scrollY > 1000) {
+                setScrolled(true)
+            } else {
+                setScrolled(false)
+            }
+        }
+        window.addEventListener('scroll', onScroll)
+
         let ticker = setInterval(() => {
+            if (scrolled) {
+                return
+            }
             tick()
+            console.log("ticking")
         }, delta)
 
         return () => {
             clearInterval(ticker)
+            window.removeEventListener('scroll', onScroll)
         }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [text])
+    }, [text, scrolled])
 
     const tick = () => {
         let i = loopNum % toRotate.length
