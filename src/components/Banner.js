@@ -31,7 +31,6 @@ const Banner = () => {
                 return
             }
             tick()
-            console.log("ticking")
         }, delta)
 
         return () => {

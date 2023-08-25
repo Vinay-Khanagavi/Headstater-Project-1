@@ -119,14 +119,14 @@ const Experience = () => {
                     <BriefcaseFill className="experience-icon" />
                     <span className="experience-name">Work</span>
                 </div>
-                <div 
+                {/* <div 
                     className={tempOpen === "organizations" ? "experience-button experience-active" : "experience-button"} 
                     onClick={() => {
                         changeOpen("organizations")
                 }}>
                     <PeopleFill className="experience-icon" />
                     <span className="experience-name">Organizations</span>
-                </div>
+                </div> */}
             </div>
             <div className="experience-sections">
                 {experience}

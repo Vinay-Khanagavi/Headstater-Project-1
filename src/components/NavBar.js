@@ -26,7 +26,7 @@ const NavBar = () => {
 
     const updateActiveLink = (link) => {
         setActiveLink(link)
-        setExpanded(expanded ? false : "expanded")
+        setExpanded(false)
     }
 
     return (
