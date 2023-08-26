@@ -37,7 +37,7 @@
     },
     "Portfolio": {
         "tools": "ReactJS, Bootstrap, CSS, EmailJS",
-        "description": "A portfolio website that showcases my projects and skills. Includes a contact form that sends emails to my inbox. You're looking at it right now :)",
+        "description": "Huh, this looks familiar.",
         "imagePath": "./Portfolio.png",
         "link": "https://github.com/ElemelonWind/personal-portfolio"
     }
