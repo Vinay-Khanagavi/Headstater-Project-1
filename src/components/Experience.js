@@ -1,5 +1,6 @@
 import React from 'react'
-import { MortarboardFill, BriefcaseFill, PeopleFill, CalendarEvent } from 'react-bootstrap-icons'
+import { MortarboardFill, BriefcaseFill, CalendarEvent } from 'react-bootstrap-icons'
+// import { PeopleFill } from 'react-bootstrap-icons'
 import data from '../assets/json/experience.json' 
 import '../assets/css/Experience.css'
 import { useState, useEffect } from 'react'
