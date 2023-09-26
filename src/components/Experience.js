@@ -1,6 +1,5 @@
 import React from 'react'
-import { MortarboardFill, BriefcaseFill, CalendarEvent } from 'react-bootstrap-icons'
-// import { PeopleFill } from 'react-bootstrap-icons'
+import { MortarboardFill, BriefcaseFill, CalendarEvent, PeopleFill } from 'react-bootstrap-icons'
 import data from '../assets/json/experience.json' 
 import '../assets/css/Experience.css'
 import { useState, useEffect } from 'react'
@@ -120,14 +119,14 @@ const Experience = () => {
                     <BriefcaseFill className="experience-icon" />
                     <span className="experience-name">Work</span>
                 </div>
-                {/* <div 
-                    className={tempOpen === "organizations" ? "experience-button experience-active" : "experience-button"} 
+                <div 
+                    className={tempOpen === "projects" ? "experience-button experience-active" : "experience-button"} 
                     onClick={() => {
-                        changeOpen("organizations")
+                        changeOpen("projects")
                 }}>
                     <PeopleFill className="experience-icon" />
-                    <span className="experience-name">Organizations</span>
-                </div> */}
+                    <span className="experience-name">Projects</span>
+                </div>
             </div>
             <div className="experience-sections">
                 {experience}
