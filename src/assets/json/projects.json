@@ -1,4 +1,10 @@
 {
+    "OneVote": {
+        "tools": "NextJS, OpenAI API, Google Cloud, Tailwind, CSS",
+        "description": "AI chatbot tool that allows users can use to ask questions about candidate information, recent news, and more. Won Social Impact at MHacks 16.",
+        "imagePath": "./OneVote.png",
+        "link": "https://github.com/ElemelonWind/one-vote"
+    },
     "Tunesphere": {
         "tools": "ReactJS, Spotify API, Jupyter Notebook, Tensorflow, CSS",
         "description": "Song recommendation system that utilizes sentiment analysis to introduce new genres to listeners. Won Best Design at HackTJ 10.0.",
