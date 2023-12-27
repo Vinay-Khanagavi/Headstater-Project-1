@@ -14,7 +14,8 @@
         ["Node", 2021],
         ["Electron", 2021],
         ["Firebase", 2022],
-        ["MongoDB", 2022]
+        ["MongoDB", 2022],
+        ["Next.js", 2023]
     ],
     "Data Science": [
         ["AI Algorithms", 2021],
@@ -28,6 +29,7 @@
         ["Android Studio", 2022],
         ["Raspberry Pi", 2022],
         ["AWS", 2023],
+        ["Arduino", 2023],
         ["Blood, sweat, & tears", 2006]
     ]
 }
