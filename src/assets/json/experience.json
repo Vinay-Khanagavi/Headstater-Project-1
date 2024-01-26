@@ -16,16 +16,11 @@
         [
             "Software Developer",
             "Vytal",
-            "March 2022 - Present"
+            "June 2023 - Present"
         ],
         [
             "Software Engineer Intern",
             "Yext",
-            "June 2022 - August 2022"
-        ],
-        [
-            "Research Intern",
-            "George Mason University",
             "June 2022 - August 2022"
         ],
         [
@@ -36,10 +31,20 @@
     ],
     "projects": [
         [
+            "ATLAS Experiment at CERN",
+            "Physics Undergraduate Research",
+            "January 2024 - Present"
+        ],
+        [
             "M-Fly: MAT-5",
             "Autonomous Software Subteam",
             "August 2023 - Present"
         ], 
+        [
+            "Automated Ontology Generation",
+            "George Mason University (ASSIP)",
+            "June 2022 - August 2022"
+        ],
         [
             "Perplexus Solver",
             "TJHSST Computer Systems Laboratory",
