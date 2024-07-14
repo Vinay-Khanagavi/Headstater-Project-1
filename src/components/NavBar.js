@@ -32,7 +32,7 @@ const NavBar = () => {
     return (
         <Navbar expand="lg" className={scrolled ? "scrolled" : ""} expanded={expanded}>
             <Container>
-                <Navbar.Brand href="#home" className="brand" onClick={() => updateActiveLink('home')}>CY</Navbar.Brand>
+                <Navbar.Brand href="#home" className="brand" onClick={() => updateActiveLink('home')}>VK</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")}>
                     <span className="navbar-toggler-icon"></span>
                 </Navbar.Toggle>

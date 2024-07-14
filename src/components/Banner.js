@@ -65,7 +65,7 @@ const Banner = () => {
             <Container>
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7} className="column">
-                        <h1>{`I'm Cindy, a `}
+                        <h1>{`I'm Vinay, a `}
                             <span className="wrap">
                                 {text}
                             </span>
