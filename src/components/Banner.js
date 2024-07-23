@@ -72,7 +72,7 @@ const Banner = () => {
                         </h1>
                         <p>{banner_text}</p>
                         <div className="button-container">
-                            <a href="https://github.com/ElemelonWind" target="_blank" rel="noreferrer">Stalk my GitHub <ArrowRightCircle size={25}/></a>
+                            <a href="https://github.com/Vinay-Khanagavi" target="_blank" rel="noreferrer">Stalk my GitHub <ArrowRightCircle size={25}/></a>
                         </div>
                     </Col>
                     <Col xs={12} md={6} xl={5} className="img-col">

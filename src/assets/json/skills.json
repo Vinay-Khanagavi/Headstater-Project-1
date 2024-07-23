@@ -10,9 +10,7 @@
         ["HTML/CSS", 2020],
         ["React", 2021],
         ["Flask", 2021],
-        ["Handlebars", 2021],
         ["Node", 2021],
-        ["Electron", 2021],
         ["Firebase", 2022],
         ["MongoDB", 2022],
         ["Next.js", 2023]
@@ -21,15 +19,13 @@
         ["AI Algorithms", 2021],
         ["Natural Language Processing", 2021],
         ["TensorFlow", 2021],
-        ["Jupyter", 2021],
-        ["OpenCV", 2022]
+        ["Jupyter", 2021]
     ],
     "Other": [
         ["Git", 2020],
         ["Android Studio", 2022],
         ["Raspberry Pi", 2022],
         ["AWS", 2023],
-        ["Arduino", 2023],
-        ["Blood, sweat, & tears", 2006]
+        ["Arduino", 2023]
     ]
 }

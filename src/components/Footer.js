@@ -10,7 +10,7 @@ const Footer = () => {
     <footer className="footer">
         <Container className="align-item-center">
             <div className="social-icon social-footer">
-                <a href="https://www.linkedin.com/in/2023cyang/" target="_blank" rel="noreferrer">
+                <a href="https://www.linkedin.com/in/-vinaykhanagavi/" target="_blank" rel="noreferrer">
                     <img src={navIcon1} alt="LinkedIn" />
                 </a>
                 <a href="https://www.github.com/ElemelonWind" target="_blank" rel="noreferrer">
@@ -20,7 +20,7 @@ const Footer = () => {
                     <img src={navIcon3} alt="Instagram" />
                 </a>
             </div>
-            <p>&copy; 2023 Cindy Yang. All rights reserved.</p>
+            <p>&copy; 2024 Vinay khanagavi. All rights reserved.</p>
         </Container>
     </footer>
   )
