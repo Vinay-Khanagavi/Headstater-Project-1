@@ -13,12 +13,12 @@ const Footer = () => {
                 <a href="https://www.linkedin.com/in/-vinaykhanagavi/" target="_blank" rel="noreferrer">
                     <img src={navIcon1} alt="LinkedIn" />
                 </a>
-                <a href="https://www.github.com/ElemelonWind" target="_blank" rel="noreferrer">
+                <a href="https://github.com/Vinay-Khanagavi" target="_blank" rel="noreferrer">
                     <img src={navIcon2} alt="GitHub" />
                 </a>
-                <a href="https://www.instagram.com/c.yang.2023/" target="_blank" rel="noreferrer">
+                {/* <a href="https://www.instagram.com/c.yang.2023/" target="_blank" rel="noreferrer">
                     <img src={navIcon3} alt="Instagram" />
-                </a>
+                </a> */}
             </div>
             <p>&copy; 2024 Vinay khanagavi. All rights reserved.</p>
         </Container>
