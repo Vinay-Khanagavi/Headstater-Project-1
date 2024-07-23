@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 import { Navbar, Container, Nav } from 'react-bootstrap'
 import navIcon1 from '../assets/img/nav-icon1.svg'
 import navIcon2 from '../assets/img/nav-icon2.svg'
-import navIcon3 from '../assets/img/nav-icon3.svg'
+// import navIcon3 from '../assets/img/nav-icon3.svg'
 import '../assets/css/NavBar.css'
 
 const NavBar = () => {
@@ -45,15 +45,15 @@ const NavBar = () => {
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <a href="https://www.linkedin.com/in/2023cyang/" target="_blank" rel="noreferrer">
+                            <a href="https://www.linkedin.com/in/-vinaykhanagavi" target="_blank" rel="noreferrer">
                                 <img src={navIcon1} alt="LinkedIn" />
                             </a>
-                            <a href="https://github.com/ElemelonWind" target="_blank" rel="noreferrer">
+                            <a href="https://github.com/Vinay-Khanagavi" target="_blank" rel="noreferrer">
                                 <img src={navIcon2} alt="GitHub" />
                             </a>
-                            <a href="https://www.instagram.com/c.yang.2023/" target="_blank" rel="noreferrer">
+                            {/* <a href="https://www.instagram.com/c.yang.2023/" target="_blank" rel="noreferrer">
                                 <img src={navIcon3} alt="Instagram" />
-                            </a>
+                            </a> */}
                         </div>
                         <div className="button-container">
                             <a className="contact button-link" href="#contact" onClick={() => updateActiveLink('contact')}>
