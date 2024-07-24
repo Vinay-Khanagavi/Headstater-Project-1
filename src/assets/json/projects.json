@@ -1,50 +1,26 @@
 {
-    "OneVote": {
-        "tools": "NextJS, OpenAI API, Google Cloud, Tailwind, CSS",
-        "description": "AI chatbot tool that allows users can use to ask questions about candidate information, recent news, and more. Won Social Impact at MHacks 16.",
-        "imagePath": "./OneVote.png",
-        "link": "https://github.com/ElemelonWind/one-vote"
+    "Flex Fitness Tracker": {
+        "tools": "React, CSS, Java, Javascript, Mysql, Xampp,",
+        "description": "The Fitness Tracker for Wellbeing project is a comprehensive platform designed to promote health and fitness through personalized tracking and analytics.",
+        "imagePath": "./FitnessT.png",
+        "link": "https://github.com/Vinay-Khanagavi/Flex-Fitness-Tracker"
     },
-    "Tunesphere": {
-        "tools": "ReactJS, Spotify API, Jupyter Notebook, Tensorflow, CSS",
-        "description": "Song recommendation system that utilizes sentiment analysis to introduce new genres to listeners. Won Best Design at HackTJ 10.0.",
-        "imagePath": "./Tunesphere.png",
-        "link": "https://github.com/ElemelonWind/tunesphere"
+    "CyberFit": {
+        "tools": "HTML,Python, Gemini 1.5 pro Api, CSS",
+        "description": "CyberFit : Gamified cyber security awareness with fine tuned llm chatbot assistant.",
+        "imagePath": "./CyberFit.png",
+        "link": "https://github.com/Vinay-Khanagavi/CyberFit.github.io"
     },
     "Edge Detection": {
         "tools": "C++",
         "description": "A program that detects edges in images using canny edge detection, hysteresis thresholding, and non-maximum suppression.",
         "imagePath": "./EdgeDetection.png",
-        "link": "https://github.com/ElemelonWind/edge-detection"
+        "link": "https://github.com/Vinay-Khanagavi/EdgeDetection"
     },
-    "Knowledge Graph Generator": {
-        "tools": "Jupyter Notebook, spaCy, Pandas, Matplotlib",
-        "description": "Project done as part of research conducted under GMU's ASSIP program on automated ontological knowledge formation.",
-        "imagePath": "./KnowledgeGraph.png",
-        "link": "https://github.com/ElemelonWind/knowledge-graph"
-    },
-    "Othello Bot": {
-        "tools": "Python, TKinter",
-        "description": "An AI bot that uses minimax algorithms to play othello. Uses techniques such as alphabeta pruning and heuristics.",
-        "imagePath": "./Othello.png",
-        "link": "https://github.com/ElemelonWind/othello-bot"
-    },
-    "Lyric Finder": {
-        "tools": "ReactJS, Musixmatch API, Bootstrap",
-        "description": "A react app that finds the lyrics of songs using the Musixmatch API. Includes a top ten tracks leaderboard and ratings of songs.",
-        "imagePath": "./LyricFinder.png",
-        "link": "https://github.com/ElemelonWind/react-lyric-finder"
-    },
-    "Sentiment Classifier": {
-        "tools": "Jupyter Notebook, Pandas, Numpy, NLTK, SKLearn",
-        "description": "A natural language processing model that finds the sentiment (good or bad) of restaurant reviews.",
-        "imagePath": "./NLP.png",
-        "link": "https://github.com/ElemelonWind/sentiment-classifier"
-    },
-    "Portfolio": {
-        "tools": "ReactJS, Bootstrap, CSS, EmailJS",
-        "description": "Huh, this looks familiar.",
-        "imagePath": "./Portfolio.png",
-        "link": "https://github.com/ElemelonWind/personal-portfolio"
+    "TripTally": {
+        "tools": "figma",
+        "description": "Travel Agency Customer management app.",
+        "imagePath": "./TripTally.png",
+        "link": "https://dribbble.com/shots/24483563-UI-UX-level-1"
     }
 }
