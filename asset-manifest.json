@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/my-proto/static/css/main.c5b7cbca.css",
+    "main.js": "/my-proto/static/js/main.002507dd.js",
+    "static/js/787.d9a20797.chunk.js": "/my-proto/static/js/787.d9a20797.chunk.js",
+    "static/media/CyberFit.png": "/my-proto/static/media/CyberFit.c09f0db4bf4d69a69de7.png",
+    "static/media/me3.jpg": "/my-proto/static/media/me3.40dda0eb1d72cb2af535.jpg",
+    "static/media/me2.jpg": "/my-proto/static/media/me2.5a225c5c6b1d70c9ce5a.jpg",
+    "static/media/me4.jpg": "/my-proto/static/media/me4.fd887bc9e08736397d75.jpg",
+    "static/media/me6.jpg": "/my-proto/static/media/me6.3eb0150e5a15981d8ce2.jpg",
+    "static/media/me1.JPG": "/my-proto/static/media/me1.4812480676c75151fee1.JPG",
+    "static/media/me5.JPG": "/my-proto/static/media/me5.4812480676c75151fee1.JPG",
+    "static/media/header-bg.jpg": "/my-proto/static/media/header-bg.9b000191f742fd74c536.jpg",
+    "static/media/TripTally.png": "/my-proto/static/media/TripTally.2be66de94fe10640b776.png",
+    "static/media/OneVote.png": "/my-proto/static/media/OneVote.f85d7435c6e0595c0544.png",
+    "static/media/footer-bg.jpg": "/my-proto/static/media/footer-bg.f7144c7bf64657a32afd.jpg",
+    "static/media/Portfolio.png": "/my-proto/static/media/Portfolio.fba0c009e46e2366494a.png",
+    "static/media/EdgeDetection.png": "/my-proto/static/media/EdgeDetection.6edfc2e79ae575c82a4c.png",
+    "static/media/FitnessT.png": "/my-proto/static/media/FitnessT.aca8195ac71353ebb779.png",
+    "static/media/footer-img.png": "/my-proto/static/media/footer-img.28f411bf6055580de3d5.png",
+    "static/media/resume.pdf": "/my-proto/static/media/resume.ecbdb0bd0a36d220b915.pdf",
+    "static/media/CentraNo2-Bold.ttf": "/my-proto/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/my-proto/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/my-proto/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/Tunesphere.png": "/my-proto/static/media/Tunesphere.4e33a95dcfb6ad7ffa74.png",
+    "static/media/header-img.png": "/my-proto/static/media/header-img.59fa441a689f53392c46.png",
+    "static/media/nav-icon2.svg": "/my-proto/static/media/nav-icon2.0cf8d0e4a7187dc54395e497c34f5e25.svg",
+    "index.html": "/my-proto/index.html",
+    "static/media/nav-icon1.svg": "/my-proto/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "main.c5b7cbca.css.map": "/my-proto/static/css/main.c5b7cbca.css.map",
+    "main.002507dd.js.map": "/my-proto/static/js/main.002507dd.js.map",
+    "787.d9a20797.chunk.js.map": "/my-proto/static/js/787.d9a20797.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5b7cbca.css",
+    "static/js/main.002507dd.js"
+  ]
+}
