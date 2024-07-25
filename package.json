@@ -15,6 +15,7 @@
     "react-bootstrap-icons": "^1.10.3",
     "react-dom": "^18.2.0",
     "react-ga": "^3.3.1",
+    "react-ga4": "^2.1.0",
     "react-router-dom": "^6.25.1",
     "react-scripts": "5.0.1",
     "swiper": "^9.4.1",
@@ -27,7 +28,6 @@
     "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
