@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import NavBar from './components/NavBar.js';
 import Banner from './components/Banner.js';
 import About from './components/About.js';
@@ -10,8 +10,14 @@ import Experience from './components/Experience.js';
 import Projects from './components/Projects.js';
 import Contact from './components/Contact.js';
 import Footer from './components/Footer.js';
+import { initGA, logPageView } from './analytics';
 
 function App() {
+  useEffect(() => {
+    initGA();
+    logPageView();
+  }, []);
+
   return (
     <div className="App">
       <NavBar />
