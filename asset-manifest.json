@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Headstater-Project-1/static/css/main.74638d05.css",
-    "main.js": "/Headstater-Project-1/static/js/main.8cd0d80e.js",
+    "main.js": "/Headstater-Project-1/static/js/main.0bbba90e.js",
     "static/js/787.d9a20797.chunk.js": "/Headstater-Project-1/static/js/787.d9a20797.chunk.js",
     "static/media/CyberFit.png": "/Headstater-Project-1/static/media/CyberFit.c09f0db4bf4d69a69de7.png",
     "static/media/me3.jpg": "/Headstater-Project-1/static/media/me3.40dda0eb1d72cb2af535.jpg",
@@ -28,11 +28,11 @@
     "index.html": "/Headstater-Project-1/index.html",
     "static/media/nav-icon1.svg": "/Headstater-Project-1/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "main.74638d05.css.map": "/Headstater-Project-1/static/css/main.74638d05.css.map",
-    "main.8cd0d80e.js.map": "/Headstater-Project-1/static/js/main.8cd0d80e.js.map",
+    "main.0bbba90e.js.map": "/Headstater-Project-1/static/js/main.0bbba90e.js.map",
     "787.d9a20797.chunk.js.map": "/Headstater-Project-1/static/js/787.d9a20797.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.74638d05.css",
-    "static/js/main.8cd0d80e.js"
+    "static/js/main.0bbba90e.js"
   ]
 }
