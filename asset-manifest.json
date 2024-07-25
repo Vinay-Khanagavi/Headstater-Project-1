@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Headstater-Project-1/static/css/main.74638d05.css",
-    "main.js": "/Headstater-Project-1/static/js/main.47470b84.js",
+    "main.js": "/Headstater-Project-1/static/js/main.b761e06c.js",
     "static/js/787.d9a20797.chunk.js": "/Headstater-Project-1/static/js/787.d9a20797.chunk.js",
     "static/media/CyberFit.png": "/Headstater-Project-1/static/media/CyberFit.c09f0db4bf4d69a69de7.png",
     "static/media/me3.jpg": "/Headstater-Project-1/static/media/me3.40dda0eb1d72cb2af535.jpg",
@@ -24,15 +24,15 @@
     "static/media/CentraNo2-Book.ttf": "/Headstater-Project-1/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/Tunesphere.png": "/Headstater-Project-1/static/media/Tunesphere.4e33a95dcfb6ad7ffa74.png",
     "static/media/header-img.png": "/Headstater-Project-1/static/media/header-img.59fa441a689f53392c46.png",
-    "static/media/nav-icon2.svg": "/Headstater-Project-1/static/media/nav-icon2.0cf8d0e4a7187dc54395e497c34f5e25.svg",
     "index.html": "/Headstater-Project-1/index.html",
+    "static/media/nav-icon2.svg": "/Headstater-Project-1/static/media/nav-icon2.0cf8d0e4a7187dc54395e497c34f5e25.svg",
     "static/media/nav-icon1.svg": "/Headstater-Project-1/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "main.74638d05.css.map": "/Headstater-Project-1/static/css/main.74638d05.css.map",
-    "main.47470b84.js.map": "/Headstater-Project-1/static/js/main.47470b84.js.map",
+    "main.b761e06c.js.map": "/Headstater-Project-1/static/js/main.b761e06c.js.map",
     "787.d9a20797.chunk.js.map": "/Headstater-Project-1/static/js/787.d9a20797.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.74638d05.css",
-    "static/js/main.47470b84.js"
+    "static/js/main.b761e06c.js"
   ]
 }
