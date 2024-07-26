@@ -8,15 +8,15 @@
     ],
     "Web Development": [
         ["HTML/CSS", 2022],
-        ["React", 2021],
+        ["React", 2023],
         ["Flask", 2022],
-        ["Node", 2022],
+        ["Node", 2023],
         ["Firebase", 2022],
-        ["MongoDB", 2022],
+        ["MongoDB", 2023],
         ["Next.js", 2023]
     ],
     "Other": [
-        ["Git", 2020],
+        ["Git", 2021],
         ["Android Studio", 2022],
         ["Figma", 2022],
         ["AWS", 2023],
